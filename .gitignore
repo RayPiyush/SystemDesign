@@ -16,3 +16,7 @@
 *.jar
 *.war
 *.ear
+
+Add-Content .gitignore "*.class"
+Add-Content .gitignore ".vscode/"
+Add-Content .gitignore ".idea/"
