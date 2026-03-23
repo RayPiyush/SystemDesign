@@ -1,0 +1,25 @@
+"What is ISP?"
+Ans:
+"ISP stands for Interface Segregation Principle.
+It is the 4th principle of SOLID design principles.
+
+It states that a class should never be forced to implement
+methods that it does not need or use.
+
+The problem occurs when we create one large interface
+with many methods and force all implementing classes
+to implement every method — even the ones they don't need."
+
+-------"Let me give you a real example-------------
+
+Think of a Printer machine.
+A basic printer can only print.
+A advanced printer can print, scan and fax.
+
+If I create one interface called Machine with
+print(), scan() and fax() methods —
+
+Then my BasicPrinter class is FORCED to implement
+scan() and fax() even though it cannot do those things.
+
+This violates ISP."
