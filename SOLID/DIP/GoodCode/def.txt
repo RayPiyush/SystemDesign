@@ -1,0 +1,14 @@
+Dependency Inversion Principle (DIP)
+Definition
+
+"High level modules should not depend on low level modules. Both should depend on abstractions."
+
+Also:
+
+"Abstractions should not depend on details. Details should depend on abstractions."
+
+
+Simple Words
+❌ BAD — High level class directly creates Low level class
+✅ GOOD — High level class depends on Interface (abstraction)
+          Low level class implements that Interface
