@@ -1,0 +1,20 @@
+Official Definition by Barbara Liskov (1987)
+
+"If S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desirable properties of the program"
+
+
+Simple Definition
+
+"A child class must be completely substitutable for its parent class without breaking the program"
+
+
+Even Simpler — One Line
+
+"Wherever you use a Parent, you should be able to use a Child instead — and everything should still work perfectly!"
+
+
+
+"Liskov Substitution Principle ensures that inheritance is used correctly — 
+a child class should only EXTEND the behavior of parent, never RESTRICT or 
+BREAK it. If substituting a child for parent breaks anything, the inheritance 
+hierarchy is wrong and needs to be redesigned using interfaces instead!" 
